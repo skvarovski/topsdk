@@ -1,4 +1,7 @@
 <?php
+
+namespace Skvarovski\TopSdk;
+
 class TopClient
 {
 	public $appkey;

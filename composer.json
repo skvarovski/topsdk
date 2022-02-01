@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TopSdk\\": "src/"
+            "Skvarovski\\TopSdk\\": "src/top/"
         },
         "files": ["src/TopSdk.php"]
     }
