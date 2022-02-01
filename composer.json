@@ -1,6 +1,9 @@
 {
     "name": "skvarovski/topsdk",
     "description": "Aliexpress SDK",
+    "type": "library",
+    "keywords": ["Aliexpress","SDK"],
+    "homepage": "https://github.com/skvarovski/todsdk",
     "license": "MIT",
     "authors": [
         {
