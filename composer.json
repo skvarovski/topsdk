@@ -5,6 +5,7 @@
     "keywords": ["Aliexpress","SDK"],
     "homepage": "https://github.com/skvarovski/todsdk",
     "license": "MIT",
+    "minimum-stability":"dev",
     "authors": [
         {
             "name": "skvarovski",
