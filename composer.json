@@ -1,0 +1,19 @@
+{
+    "name": "skvarovski/topsdk",
+    "description": "Aliexpress SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "skvarovski",
+            "email": "skvarovski@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": ["src/TopSdk.php"]
+    }
+}
