@@ -4,6 +4,8 @@
  * 模块信息列表
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class Aeopdetailmodulelist
 {
 	

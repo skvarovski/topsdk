@@ -5,6 +5,10 @@
  * @author auto create
  * @since 1.0, 2020.02.11
  */
+
+namespace Skvarovski\TopSdk\request;
+use Skvarovski\TopSdk\RequestCheckUtil;
+
 class AliexpressSolutionBatchProductDeleteRequest
 {
 	/** 

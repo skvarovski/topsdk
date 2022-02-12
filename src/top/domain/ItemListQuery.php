@@ -4,6 +4,9 @@
  * request parameters to query
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class ItemListQuery
 {
 	

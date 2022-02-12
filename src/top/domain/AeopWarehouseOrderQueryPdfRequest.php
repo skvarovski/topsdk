@@ -4,6 +4,8 @@
  * 批量查询线上发货信息进去打印,列表类型，以json格式来表达
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopWarehouseOrderQueryPdfRequest
 {
 	

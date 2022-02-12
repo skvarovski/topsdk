@@ -4,6 +4,9 @@
  * 发布属性值
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class AeopAttrValueDto
 {
 	

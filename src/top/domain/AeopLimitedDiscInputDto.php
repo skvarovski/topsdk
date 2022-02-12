@@ -4,6 +4,8 @@
  * 输入参数
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopLimitedDiscInputDto
 {
 	

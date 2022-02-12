@@ -4,6 +4,8 @@
  * 运费模板自定义按件或按重内容
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopFreightSelfdefine
 {
 	

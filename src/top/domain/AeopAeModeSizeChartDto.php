@@ -4,6 +4,8 @@
  * 模特尺码数据，最多5个，单位厘米
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopAeModeSizeChartDto
 {
 	

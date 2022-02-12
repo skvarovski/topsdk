@@ -4,6 +4,8 @@
  * shipmentList
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopShipmentDto
 {
 	

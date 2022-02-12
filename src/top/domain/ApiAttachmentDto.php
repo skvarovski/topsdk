@@ -4,6 +4,8 @@
  * 图片附件
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class ApiAttachmentDto
 {
 	

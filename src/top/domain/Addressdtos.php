@@ -4,6 +4,9 @@
  * addresses
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class Addressdtos
 {
 	

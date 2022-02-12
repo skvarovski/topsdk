@@ -4,6 +4,8 @@
  * 收货地址信息
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopTpAddressDto
 {
 	

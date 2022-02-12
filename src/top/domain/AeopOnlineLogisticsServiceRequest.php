@@ -4,6 +4,8 @@
  * 入參对象
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopOnlineLogisticsServiceRequest
 {
 	

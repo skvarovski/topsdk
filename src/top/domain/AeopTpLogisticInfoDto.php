@@ -4,6 +4,8 @@
  * 物流信息
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopTpLogisticInfoDto
 {
 	

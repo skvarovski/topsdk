@@ -4,6 +4,8 @@
  * 订单详情
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopWarehouseAbnormalOrderResult
 {
 	

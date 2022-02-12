@@ -4,6 +4,8 @@
  * 返回查询到的尺码模版列表
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeProductSizeTemplateQuerySimpleInfo
 {
 	

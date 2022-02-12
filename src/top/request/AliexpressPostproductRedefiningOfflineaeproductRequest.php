@@ -5,6 +5,9 @@
  * @author auto create
  * @since 1.0, 2020.06.01
  */
+
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressPostproductRedefiningOfflineaeproductRequest
 {
 	/** 

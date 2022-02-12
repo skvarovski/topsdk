@@ -4,6 +4,8 @@
  * 留言信息（已废弃）
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopTpOrderMsgDto
 {
 	

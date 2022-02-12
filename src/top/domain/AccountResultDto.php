@@ -4,6 +4,8 @@
  * 会员等级情况
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AccountResultDto
 {
 	

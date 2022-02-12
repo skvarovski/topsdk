@@ -4,6 +4,9 @@
  * param
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class OrderQuery
 {
 	

@@ -4,6 +4,8 @@
  * 返回数据
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopActualCarrierResponse
 {
 	

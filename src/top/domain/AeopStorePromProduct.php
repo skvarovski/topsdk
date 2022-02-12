@@ -4,6 +4,8 @@
  * 活动商品对象列表
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopStorePromProduct
 {
 	

@@ -4,6 +4,8 @@
  * 入参如下
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopOrderCancelRequest
 {
 	

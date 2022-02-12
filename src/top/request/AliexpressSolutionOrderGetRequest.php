@@ -5,6 +5,9 @@
  * @author auto create
  * @since 1.0, 2020.09.08
  */
+
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressSolutionOrderGetRequest
 {
 	/** 

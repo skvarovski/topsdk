@@ -4,6 +4,8 @@
  * sku分国家的日常促销价
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopSkuNationalDiscountPrice
 {
 	

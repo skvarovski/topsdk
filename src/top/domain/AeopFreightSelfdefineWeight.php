@@ -4,6 +4,8 @@
  * 自定义按重内容
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopFreightSelfdefineWeight
 {
 	

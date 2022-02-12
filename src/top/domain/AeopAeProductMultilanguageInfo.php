@@ -4,6 +4,8 @@
  * 商品多语言信息
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopAeProductMultilanguageInfo
 {
 	

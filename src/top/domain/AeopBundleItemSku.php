@@ -4,6 +4,8 @@
  * 搭配商品sku列表
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopBundleItemSku
 {
 	

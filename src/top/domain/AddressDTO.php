@@ -4,6 +4,9 @@
  * sender
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class AddressDTO
 {
 	

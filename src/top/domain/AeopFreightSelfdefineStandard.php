@@ -4,6 +4,8 @@
  * selfstandard
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopFreightSelfdefineStandard
 {
 	

@@ -4,6 +4,8 @@
  * subTradeOrderList
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopSellerShipmentSubTradeOrderDto
 {
 	

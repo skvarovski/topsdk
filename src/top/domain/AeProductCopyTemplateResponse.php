@@ -4,6 +4,8 @@
  * 操作响应
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeProductCopyTemplateResponse
 {
 	

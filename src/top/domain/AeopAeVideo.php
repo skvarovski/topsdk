@@ -4,6 +4,8 @@
  * 多媒体信息。
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopAeVideo
 {
 	

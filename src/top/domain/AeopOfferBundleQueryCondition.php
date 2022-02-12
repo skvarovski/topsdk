@@ -4,6 +4,8 @@
  * 查询入参
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopOfferBundleQueryCondition
 {
 	

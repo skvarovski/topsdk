@@ -4,6 +4,9 @@
  * 结果
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class AeopSellerShipmentSubTradeOrderResponse
 {
 	

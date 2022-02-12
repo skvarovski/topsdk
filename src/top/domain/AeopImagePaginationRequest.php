@@ -4,6 +4,9 @@
  * 当前参数组成的查询对象。
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class AeopImagePaginationRequest
 {
 	

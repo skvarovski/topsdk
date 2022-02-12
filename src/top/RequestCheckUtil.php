@@ -4,6 +4,9 @@
  * 可以对API的参数类型、长度、最大值等进行校验
  *
  **/
+
+namespace Skvarovski\TopSdk;
+
 class RequestCheckUtil
 {
 	/**

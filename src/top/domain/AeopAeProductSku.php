@@ -4,6 +4,9 @@
  * 列表类型，以json格式来表达。参看aeopAeProductSKUs数据结构。特别提示：新增SKU实际可售库存属性ipmSkuStock，该属性值的合理取值范围为0~999999，如该商品有SKU时，请确保至少有一个SKU是有货状态，也就是ipmSkuStock取值是1~999999，在整个商品纬度库存值的取值范围是1~999999。
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class AeopAeProductSku
 {
 	

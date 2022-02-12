@@ -4,6 +4,9 @@
  * 本次查询结果返回的图片列表。
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class AeopImage
 {
 	

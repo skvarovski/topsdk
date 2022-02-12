@@ -4,6 +4,9 @@
  * 产品分组信息
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class AeopAeProductTreeGroup
 {
 	

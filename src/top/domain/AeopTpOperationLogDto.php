@@ -4,6 +4,8 @@
  * 操作日志列表
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopTpOperationLogDto
 {
 	

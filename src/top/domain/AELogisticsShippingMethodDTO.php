@@ -4,6 +4,8 @@
  * delivery option list
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AELogisticsShippingMethodDTO
 {
 	

@@ -4,6 +4,8 @@
  * 商品sku信息
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopSkuInventoryInfo
 {
 	

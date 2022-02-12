@@ -4,6 +4,8 @@
  * 商品信息
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopTpOrderProductInfoDto
 {
 	

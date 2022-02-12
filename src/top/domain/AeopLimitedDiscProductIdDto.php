@@ -4,6 +4,8 @@
  * 系统自动生成
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopLimitedDiscProductIdDto
 {
 	

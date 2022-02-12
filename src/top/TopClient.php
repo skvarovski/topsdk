@@ -16,7 +16,7 @@ class TopClient
 
 	public $readTimeout;
 
-	/** 是否打开入参check**/
+	/** Whether to open the input parameter check**/
 	public $checkRequest = true;
 
 	protected $signMethod = "md5";
@@ -42,7 +42,9 @@ class TopClient
 		$stringToBeSigned = $this->secretKey;
 		foreach ($params as $k => $v)
 		{
-			if(!is_array($v) && "@" != substr($v, 0, 1))
+            //print_r($v);
+
+			if(!is_array($v) && "@" != mb_substr($v, 0, 1))
 			{
 				$stringToBeSigned .= "$k$v";
 			}
@@ -66,7 +68,7 @@ class TopClient
 			curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $this->connectTimeout);
 		}
 		curl_setopt ( $ch, CURLOPT_USERAGENT, "top-sdk-php" );
-		//https 请求
+		//https ask
 		if(strlen($url) > 5 && strtolower(substr($url,0,5)) == "https" ) {
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
@@ -140,14 +142,14 @@ class TopClient
 			curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $this->connectTimeout);
 		}
 		curl_setopt ( $ch, CURLOPT_USERAGENT, "top-sdk-php" );
-		//https 请求
+		//https ask
 		if(strlen($url) > 5 && strtolower(substr($url,0,5)) == "https" ) {
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 		}
-		//生成分隔符
+		//generate delimiter
 		$delimiter = '-------------' . uniqid();
-		//先将post的普通数据生成主体字符串
+		//First generate the body string from the ordinary data of the post
 		$data = '';
 		if($postFields != null){
 			foreach ($postFields as $name => $content) {
@@ -159,7 +161,7 @@ class TopClient
 			unset($name,$content);
 		}
 
-		//将上传的文件生成主体字符串
+		//Generate body string from uploaded file
 		if($fileFields != null){
 			foreach ($fileFields as $name => $file) {
 			    $data .= "--" . $delimiter . "\r\n";
@@ -170,7 +172,7 @@ class TopClient
 			}
 			unset($name,$file);
 		}
-		//主体结束的分隔符
+		//delimiter at the end of the body
 		$data .= "--" . $delimiter . "--";
 
 		curl_setopt($ch, CURLOPT_POST, true);
@@ -233,7 +235,7 @@ class TopClient
 				return $result;
 			}
 		}
-		//组装系统参数
+		//Assembly System Parameters
 		$sysParams["app_key"] = $this->appkey;
 		$sysParams["v"] = $this->apiVersion;
 		$sysParams["format"] = $this->format;
@@ -245,11 +247,11 @@ class TopClient
 			$sysParams["session"] = $session;
 		}
 		$apiParams = array();
-		//获取业务参数
+		//get bissnes params
 		$apiParams = $request->getApiParas();
 
 
-		//系统参数放入GET请求串
+		//The system parameters are put into the GET request string
 		if($bestUrl){
 			$requestUrl = $bestUrl."?";
 			$sysParams["partner_id"] = $this->getClusterTag();
@@ -257,7 +259,7 @@ class TopClient
 			$requestUrl = $this->gatewayUrl."?";
 			$sysParams["partner_id"] = $this->sdkVersion;
 		}
-		//签名
+		//sign
 		$sysParams["sign"] = $this->generateSign(array_merge($apiParams, $sysParams));
 
 		foreach ($sysParams as $sysParamKey => $sysParamValue)
@@ -278,7 +280,7 @@ class TopClient
 		// $requestUrl .= "timestamp=" . urlencode($sysParams["timestamp"]) . "&";
 		$requestUrl = substr($requestUrl, 0, -1);
 
-		//发起HTTP请求
+		//make an HTTP request
 		try
 		{
 			if(count($fileFields) > 0){
@@ -297,11 +299,12 @@ class TopClient
 
 		unset($apiParams);
 		unset($fileFields);
-		//解析TOP返回结果
+		//Parse the TOP return result
 		$respWellFormed = false;
 		if ("json" == $this->format)
 		{
 			$respObject = json_decode($resp);
+
 			if (null !== $respObject)
 			{
 				$respWellFormed = true;
@@ -310,6 +313,7 @@ class TopClient
 					$respObject = $propValue;
 				}
 			}
+
 		}
 		else if("xml" == $this->format)
 		{
@@ -320,7 +324,8 @@ class TopClient
 			}
 		}
 
-		//返回的HTTP文本不是标准JSON或者XML，记下错误日志
+
+		//The returned HTTP text is not standard JSON or XML, make a note of the error log
 		if (false === $respWellFormed)
 		{
 			$this->logCommunicationError($sysParams["method"],$requestUrl,"HTTP_RESPONSE_NOT_WELL_FORMED",$resp);
@@ -329,7 +334,9 @@ class TopClient
 			return $result;
 		}
 
-		//如果TOP返回了错误码，记录到业务错误日志中
+
+
+		//If TOP returns an error code, record it in the business error log
 		if (isset($respObject->code))
 		{
 			$logger = new TopLogger;
@@ -339,6 +346,7 @@ class TopClient
 				$resp
 			));
 		}
+        
 		return $respObject;
 	}
 

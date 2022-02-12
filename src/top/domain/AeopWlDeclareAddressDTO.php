@@ -4,6 +4,8 @@
  * refund address
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopWlDeclareAddressDTO
 {
 	

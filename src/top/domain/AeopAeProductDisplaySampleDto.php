@@ -4,6 +4,8 @@
  * 商品基本信息列表
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopAeProductDisplaySampleDto
 {
 	

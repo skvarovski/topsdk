@@ -4,6 +4,8 @@
  * 发布类目
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopPostCategoryDto
 {
 	

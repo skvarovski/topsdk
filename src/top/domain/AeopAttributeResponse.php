@@ -4,6 +4,8 @@
  * 发布属性
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopAttributeResponse
 {
 	

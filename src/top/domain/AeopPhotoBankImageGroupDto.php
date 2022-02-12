@@ -4,6 +4,8 @@
  * 图片银行分组列表，如果没有任何的分组信息。这个属性为:[]。
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopPhotoBankImageGroupDto
 {
 	

@@ -5,6 +5,9 @@
  * @author auto create
  * @since 1.0, 2022.01.06
  */
+
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressSolutionProductInfoGetRequest
 {
 	/** 

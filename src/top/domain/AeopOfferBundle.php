@@ -4,6 +4,8 @@
  * 搭配列表
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopOfferBundle
 {
 	

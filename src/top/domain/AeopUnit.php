@@ -4,6 +4,8 @@
  * 发布属性单位
  * @author auto create
  */
+namespace Skvarovski\TopSdk\domain;
+
 class AeopUnit
 {
 	

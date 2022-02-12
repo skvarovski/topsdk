@@ -4,6 +4,9 @@
  * 搭配主商品
  * @author auto create
  */
+
+namespace Skvarovski\TopSdk\domain;
+
 class AeopBundleItem
 {
 	

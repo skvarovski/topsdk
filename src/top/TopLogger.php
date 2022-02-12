@@ -1,4 +1,7 @@
 <?php
+
+namespace Skvarovski\TopSdk;
+
 class TopLogger
 {
 	public $conf = array(
