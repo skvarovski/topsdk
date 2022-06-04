@@ -5,6 +5,9 @@
  * @author auto create
  * @since 1.0, 2019.08.15
  */
+
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressOfferProductSkupricesEditRequest
 {
 	/** 

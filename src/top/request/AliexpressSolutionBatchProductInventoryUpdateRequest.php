@@ -5,6 +5,7 @@
  * @author auto create
  * @since 1.0, 2019.09.02
  */
+namespace Skvarovski\TopSdk\request;
 class AliexpressSolutionBatchProductInventoryUpdateRequest
 {
 	/** 
