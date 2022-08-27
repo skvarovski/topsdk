@@ -5,6 +5,8 @@
  * @author auto create
  * @since 1.0, 2021.12.20
  */
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressLogisticsCreatewarehouseorderRequest
 {
 	/** 

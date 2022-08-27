@@ -5,6 +5,8 @@
  * @author auto create
  * @since 1.0, 2021.04.29
  */
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressCategoryRedefiningGetpostcategorybyidRequest
 {
 	/** 

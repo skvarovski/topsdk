@@ -5,6 +5,8 @@
  * @author auto create
  * @since 1.0, 2021.12.23
  */
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressLogisticsItemForbidattributeQueryRequest
 {
 	/** 

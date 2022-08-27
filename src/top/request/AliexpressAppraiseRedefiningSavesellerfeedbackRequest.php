@@ -5,6 +5,8 @@
  * @author auto create
  * @since 1.0, 2018.12.18
  */
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressAppraiseRedefiningSavesellerfeedbackRequest
 {
 	/** 

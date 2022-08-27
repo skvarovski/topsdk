@@ -5,6 +5,9 @@
  * @author auto create
  * @since 1.0, 2021.10.09
  */
+namespace Skvarovski\TopSdk\request;
+
+
 class AliexpressCategoryRedefiningGetallchildattributesresultRequest
 {
 	/** 

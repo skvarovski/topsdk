@@ -5,6 +5,8 @@
  * @author auto create
  * @since 1.0, 2022.01.26
  */
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressPostproductRedefiningEditaeproductRequest
 {
 	/** 

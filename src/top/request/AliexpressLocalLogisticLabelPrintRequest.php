@@ -5,6 +5,8 @@
  * @author auto create
  * @since 1.0, 2022.01.17
  */
+namespace Skvarovski\TopSdk\request;
+
 class AliexpressLocalLogisticLabelPrintRequest
 {
 	/** 
